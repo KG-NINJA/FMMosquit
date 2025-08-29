@@ -1,4 +1,5 @@
 # FMMosquit
+
 ## Features
 - FM synthesis with adjustable modulation index
 - Animated mosquito icon
@@ -8,6 +9,7 @@
 - Buy Me A Coffee support link
 
 ## Development
+
 
 ## License
 MIT
