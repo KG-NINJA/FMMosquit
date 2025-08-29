@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.mosquito img {
+  width: 80px;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.mosquito.fly img {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+#map {
+  height: 300px;
+  margin: 1rem auto;
+  width: 90%;
+}
