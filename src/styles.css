@@ -1,0 +1,19 @@
+:root { --bg:#0b1020; --fg:#e8f0ff; --muted:#a6b0c0; --accent:#8ee; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+.container{max-width:960px;margin:0 auto;padding:20px}
+header h1{margin:8px 0 0}
+header p{margin:4px 0 16px;color:var(--muted)}
+.controls{display:grid;gap:12px;margin-bottom:16px}
+.mode label{margin-right:16px}
+.buttons{display:flex;gap:10px;flex-wrap:wrap}
+button{padding:10px 14px;border:0;border-radius:10px;cursor:pointer}
+button.primary{background:#1e90ff;color:white}
+button.danger{background:#f05;color:white}
+.mosquitoWrap{height:90px;display:flex;align-items:center}
+.mosquito{transition:transform 0.8s ease, opacity 0.8s ease}
+.mosquito.active{transform:translateX(220px) translateY(-40px) rotate(15deg); opacity:0.15}
+.map h2, .feedback h2{margin:16px 0 8px}
+footer{margin-top:20px;color:var(--muted)}
+footer a{color:var(--accent);text-decoration:none}
+
